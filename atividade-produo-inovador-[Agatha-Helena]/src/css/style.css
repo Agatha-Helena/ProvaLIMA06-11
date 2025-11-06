@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Newsreader"; font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+body, table {
+    text-align: center;
+}
+
+.botao-comprar {
+    border-color: rgb(255, 255, 255);
+}
+
+#galeria h2 {
+    background-color: #516e52;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+h3 + ul {
+    font-size: 0.8rem;
+}
+
+/* input[type="email"] {
+    border:2m solid black
+} */
+
+p {
+    line-height: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 93, 3); padding: 1rem;
+}
+
+img {
+    max-width: 30%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    padding: 1rem;
+    background-color: #83bb85;
+    border: 0.1rem solid #516e52;
+    font-size: 1.2rem;
+}
+
+td {
+    padding: 0.75rem;
+    background-color: rgb(174, 218, 176);
+    border: 0.1rem solid #516e52;
+}
+
+footer {
+    background-color: #516e52;
+}
+
+html {
+    background-color: #d2f4d3;
+}
+
+h1, h2 {
+    background-color: #516e52;
+}
+
+/* Não está aplicando o Zebra Stripes!*/
+
+.teste tr:nth-child(even) {
+    background-color: #516e52;
+}
